@@ -3,6 +3,7 @@ import { Card,Button, Container, Row} from 'react-bootstrap'
 import {ProductosLista} from '../helpers/productos'
 import NavBar from '../navBar/navBar'
 import Footer from '../footer/footer'
+import './productos.css';
 
 
 const productos = () => {
@@ -10,6 +11,7 @@ const productos = () => {
       <>
       <NavBar/>
     <Container>  
+        <div class="productos">
     <h1>Productos</h1> 
         <Row>    
             {   
@@ -23,13 +25,18 @@ const productos = () => {
                         </Card.Text>
                         <Button variant="secondary">Detalle</Button>
                     </Card.Body>
+                    
                     </Card>
+                    
                 ))
+                
             }
+           
         </Row>
+        
+        </div>
     </Container>
-    <br />
-    <br />
+    
     <Footer/>
     </>
   )
