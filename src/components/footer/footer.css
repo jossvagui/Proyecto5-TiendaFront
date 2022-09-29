@@ -14,11 +14,11 @@
 .link__item {
     padding-left: 0;
     background-color: #0d6efd !important;
-    color: #c4c4c4 !important;
+    color: #fff !important;
 }
 
 .link__item a {
-    color: #c4c4c4;
+    color: #fff;
 }
 
 .footer__bottom {
