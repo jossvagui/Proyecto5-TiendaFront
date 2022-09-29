@@ -13,9 +13,9 @@ const carrito = () => {
     <Card className="text-center">
       <Card.Header>Resumen de compra</Card.Header>
       <Card.Body>
-        <Card.Title>Cupon de descuento</Card.Title>
+        <Card.Title>El carrito ha sido cargado de forma automática</Card.Title>
         <Card.Text>
-        **Ahorra 2.25% en tus compras pagando con tarjeta de débito.
+        *Da click al botón debajo para proceder con el pago*
         </Card.Text>
         <Button href='/checkout' variant="secondary">Checkout</Button>
       </Card.Body>

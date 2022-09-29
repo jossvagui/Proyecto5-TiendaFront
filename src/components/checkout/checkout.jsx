@@ -9,7 +9,9 @@ const checkout = () => {
   return (
     <>
     <NavBar/>
+    
     <div class="pagacion">
+    <h1>Realizar pago mediante PayPal</h1>
     <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Correo asociado con PayPal</Form.Label>

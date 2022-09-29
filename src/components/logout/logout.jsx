@@ -10,16 +10,14 @@ const logout = () => {
     <NavBar/>
     <div class="adiosin">
     <Card>
-      <Card.Header>Regresa pronto ❤️</Card.Header>
+      <Card.Header>Sesión cerrada satisfactoriamente</Card.Header>
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p>
             {' '}
-            Recuerda que cada ingreso a tu cuenta genera recompensas.{' '}
+            Para poder realizar alguna compra tendrás que iniciar sesión nuevamente.{' '}
           </p>
-          <footer className="blockquote-footer">
-            No te quedes sin ellas- <cite title="Source Title"></cite>
-          </footer>
+          
         </blockquote>
       </Card.Body>
     </Card>

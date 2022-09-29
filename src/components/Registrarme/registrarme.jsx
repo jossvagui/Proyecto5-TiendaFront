@@ -13,6 +13,7 @@ const registrarme = () => {
 
     
     <div class="formis">
+      <h1>Registra tus datos</h1>
     <Form>
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Nombre (s)</Form.Label>
