@@ -1,6 +1,5 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-// import imagenes from './clickeo.css'
 import './clickeo.css';
 
 const clickeo = () => {
@@ -12,40 +11,40 @@ const clickeo = () => {
             <div class='carrusel'>
             <img
               className="d-block w-100"
-              src="https://cdn.pixabay.com/photo/2013/07/30/12/25/bouquet-168831_960_720.jpg"
+              src="https://cdn.pixabay.com/photo/2020/08/22/01/34/cellphones-5507342_960_720.jpg"
               alt="First slide"
             />
             </div>
             <Carousel.Caption>
-              <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h5>Diversas Marcas</h5>
+              <p>Manejamos una variedad de marcas y modelos</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
           <div class='carrusel'>
             <img
               className="d-block w-100"
-              src="https://cdn.pixabay.com/photo/2015/03/26/23/09/cake-pops-693645__340.jpg"
+              src="https://cdn.pixabay.com/photo/2022/09/25/22/25/iphones-7479304_960_720.jpg"
               alt="Second slide"
             />
             </div>
             <Carousel.Caption>
-              <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h5>Lo Más Reciente</h5>
+              <p>Los equipos más nuevos en inventario</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
           <div class='carrusel'>
             <img
               className="d-block w-100"
-              src="https://cdn.pixabay.com/photo/2015/10/30/18/52/halloween-candy-1014629_960_720.jpg"
+              src="https://cdn.pixabay.com/photo/2018/02/24/21/40/smartphone-3179295_960_720.jpg"
               alt="Third slide"
             />
             </div>
             <Carousel.Caption>
-              <h5>Third slide label</h5>
+              <h5>Equipos originales</h5>
               <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                Todos nuestros equipos son nuevo y originales
               </p>
             </Carousel.Caption>
           </Carousel.Item>

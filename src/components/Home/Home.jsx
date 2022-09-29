@@ -3,6 +3,7 @@ import NavBar from '../navBar/navBar'
 import Jumbotron from '../jumbotron/jumbotron'
 import Clickeo from '../Clickeo/clickeo'
 import Footer from '../footer/footer'
+import PopularMenu from '../popular-menu/PopularMenu';
 
 
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
     <>
     <NavBar/>
       <Clickeo/>
-      <Jumbotron/>
+      <PopularMenu/>      
       <Footer/>
     </>
   )
